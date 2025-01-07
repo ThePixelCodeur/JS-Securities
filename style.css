@@ -24,6 +24,75 @@ html{
     background-color: #FAFAFA;
 }
 
+/* Testimonials */
+.Testimonial{
+    background-color: var(--clr-bg);
+    width: 100%;
+    height: auto; 
+}
+.Testimonial .container{
+    max-width: 125rem;
+    margin: auto;
+    padding: 5rem 2rem;
+}
+.Testimonial .Testimonial-head{
+    place-items: center;
+    padding: 3rem 0;
+}
+.Testimonial-head h2{
+    color:var(--clr-primary);
+    font-size: 2rem;
+    font-weight: 600;
+}
+.Testimonial-head p{
+    color:var(--clr-secondary);
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding: 1rem 0;
+    width: 60%;
+    text-align: center;
+}
+.Testimonial .client-says{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.testi-1{
+    padding: 1rem 0;
+    flex-basis: 30%;
+    min-width:30rem;
+}
+.testi-1 i{
+    font-size: 5rem;
+    color:var(--clr-blu);
+}
+.testi-1 p{
+    font-size: 1.2rem;
+    color: var(--clr-secondary);
+    font-weight: 400;
+    padding: 1rem 0;
+}
+.persons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: center;
+}
+.persons img{
+    width: 6rem;
+}
+.person-name h6{
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--clr-blu);
+    padding-top: 0.5rem;
+}
+.person-name p{
+    font-size: 1.2rem;
+    padding-top: 0.5rem ;
+    font-weight: 500;
+}
+
 /* Blog Section */
 .blog{
     width: 100%;
@@ -36,6 +105,7 @@ html{
 }
 .blog .blog-heading{
     place-items: center;
+    padding: 3rem 0;
 }
 .blog-heading h2{
     color:var(--clr-primary);
@@ -50,6 +120,28 @@ html{
 .blog-content .blog-1{
     flex-basis: 33%;
 }
+.blogs-heading h5{
+    padding: 1.2rem 0;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--clr-primary);
+}
+.blogs-heading h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    width: 90%;
+    line-height: 1.8rem;
+    color: var(--clr-primary);
+}
+.blogs-heading h6{
+    padding: 1rem 0;
+    font-size: 1.2rem;
+    font-weight: 400;
+    width: 80%;
+    line-height: 1.8rem;
+    color: var(--clr-secondary);
+}
+
 
 /* Contact-us */
 .contact{
@@ -163,7 +255,8 @@ html{
     flex-wrap: wrap;
     gap:3rem;
     justify-content: space-between;
-    color:var(--clr-white)
+    color:var(--clr-white);
+    padding: 1rem 0;
 }
 .row-1-heading h3{
     font-size: 1.7rem;
@@ -178,7 +271,7 @@ html{
     line-height: 1.7rem;
 }
 .contact-input{  
-    min-width: 18rem;
+    min-width: 15rem;
     height: 3.2rem;
     padding-left: 0.5rem;
     background: #fff;
