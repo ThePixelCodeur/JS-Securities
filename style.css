@@ -65,6 +65,7 @@ a{
     color:var(--clr-secondary);
     font-size: 1.5rem;
     cursor: pointer;
+    font-weight: 500;
 }
 a:hover{
     color: var(--clr-blu);
@@ -122,7 +123,8 @@ color:var(--clr-secondary);
         font-size: 1.3rem;
         font-weight:600;
         color:var(--clr-secondary);
-        line-height: 1.6rem;
+        line-height: 2rem;
+       
 }
 .hero-content .hero-btn{
     max-width: 100%;
@@ -820,9 +822,10 @@ hr{
 }
 
 .menu{
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-left: 2rem;
     display: none;
+    color:var(--clr-blu)
 }
 
 @media screen and (max-width:800px)  {

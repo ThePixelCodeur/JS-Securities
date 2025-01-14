@@ -57,6 +57,7 @@ a{
     color:var(--clr-secondary);
     font-size: 1.5rem;
     cursor: pointer;
+    font-weight: 500;
 }
 a:hover{
     color: var(--clr-blu);
@@ -301,9 +302,10 @@ hr{
 }
 
 .menu{
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-left: 2rem;
     display: none;
+    color:var(--clr-blu)
 }
 
 @media screen and (max-width:800px)  {
