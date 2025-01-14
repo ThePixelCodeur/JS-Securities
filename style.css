@@ -73,13 +73,13 @@ a:hover{
 p{
 color:var(--clr-secondary);
 }
-.est-btn {
+.est-button a .est-btn {
     max-width: 100%;
     padding: 1.5rem 0;
-    cursor: pointer;
     transition: 0.5s;
-    border: none;
-    background: none;
+}
+.est-button a .est-btn:hover{
+    cursor: pointer;
 }
 .row{
     display: flex;
@@ -558,7 +558,6 @@ color:var(--clr-secondary);
 .blogs-heading h3{
     font-size: 1.8rem;
     font-weight: 600;
-    width: 90%;
     line-height: 2.2rem;
     color: var(--clr-primary);
 }
@@ -566,7 +565,6 @@ color:var(--clr-secondary);
     padding: 0.6rem 0;
     font-size: 1.5rem;
     font-weight: 500;
-    width: 80%;
     line-height: 2rem;
     color: var(--clr-secondary);
 }
@@ -839,6 +837,7 @@ hr{
         width: 100%;
         overflow: hidden;
         transition: max-height 0.5s;
+        z-index: 99;
     }
     nav ul li{
         display: block;
@@ -858,10 +857,8 @@ hr{
         display: block;
         cursor: pointer;
     }
-    button{
+    .est-button{
         display: none;
     }
-    button .est-btn{
-        display: none;
-    }
+
 }
