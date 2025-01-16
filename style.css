@@ -813,7 +813,7 @@ color:var(--clr-secondary);
 .footer-content li{
     list-style-type: none;
     font-size: 1.5rem;
-    padding: 0.4rem 0;
+    padding: 0.6rem 0;
 }
 .footer-content li a{
     text-decoration: none;
